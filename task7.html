@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task-2</title>
+    <style>
+        #id1{
+            text-align: right;
+            
+        }
+        .navbar {
+            width: 200px;
+            background-color: lightblue;
+            padding: 20px;
+
+        }
+
+        .active {
+            background-color: rgb(241, 132, 37);
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .navbar a {
+            display: block;
+            text-decoration: none;
+            padding: 10px;
+            color: rgb(9, 76, 184);
+        }
+
+        .navbar a:hover {
+            background-color: lightgray;
+        }
+        ul,
+        li {
+            
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar1 {
+            text-align: right;
+            background-color: gray;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .navbar1 a {
+            text-align: right;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: rgb(19, 22, 218);
+            background-color: lightgray;
+            border-right: 1px solid black;
+        }
+
+        .navbar1 a.active {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Bootstrap</a></li>
+        </ul>
+    </div>
+    <div class="navbar1" id="id1">
+        <a class="active" href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+    </div>
+</body>
+
+</html>
